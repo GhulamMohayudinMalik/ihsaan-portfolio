@@ -13,7 +13,7 @@ const LogoCard = ({ image, name, delay = 0 }) => {
       onMouseLeave={() => setIsHovered(false)}
       style={{ animationDelay: `${delay}ms` }}
     >
-      <div className="relative w-40 h-32 transition-transform duration-300 hover:scale-105">
+      <div className="relative w-68 h-48 transition-transform duration-300 hover:scale-105">
         {/* Shadow layer */}
         <div 
           className="absolute inset-0 rounded-lg"
