@@ -15,7 +15,7 @@ export default function Home() {
       <Main />
       <Work />
       <WorkTime />
-      {/* <Story /> */}
+      <Story />
       <Process />
       <Contact /> 
       <Footer />
